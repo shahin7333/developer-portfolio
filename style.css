@@ -11,7 +11,7 @@ h1{
 .justify{
     text-align: justify;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -43,4 +43,32 @@ background-image:linear-gradient(orangered, tomato) ;
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+.description{
+    padding-top: 70px;
+    background-image: url(image/exp-bg.png);  
+    background-repeat: no-repeat;  
+    background-position: left bottom;
+}
+.description-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 45%;
+    margin: 5%;
+    border-radius: 5px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+#introduction{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, orangered);
+    border-image-slice: 1;
+}
+#purpose{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(243, 6, 172), rgb(26, 248, 6));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
